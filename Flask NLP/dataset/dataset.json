@@ -1,0 +1,379 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+
+        "Hallo ?",
+        "kamu ada masalah apa?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": ["Dengan senang hati:)"]
+    },
+    {
+      "tag": "penjelasan_kekerasan_seksual",
+      "patterns": ["Apa itu Kekerasan seksual?", "Kekerasan seksual"],
+      "responses": ["Kekerasan Seksual adalah setiap perbuatan merendahkan, menghina, melecehkan, dan/atau menyerang tubuh, dan/atau fungsi reproduksi seseorang, karena ketimpangan relasi kuasa dan/atau gender, yang berakibat atau dapat berakibat penderitaan psikis dan/atau fisik termasuk yang mengganggu kesehatan reproduksi seseorang dan hilang kesempatan melaksanakan pendidikan dengan aman dan optimal."]
+    },
+    {
+      "tag": "Aturan_kekerasan_seksual",
+      "patterns": [
+        "Apa yang mengatur tentang kekerasan seksual?",
+        "Aturan kekerasan seksual"
+      ],
+      "responses": [
+        "Undang-undang yang mengatur tentang kekerasan seksual adalah UU No. 12 Tahun 2022 Tentang Pidana Kederasan Seksual."
+      ]
+    },
+    {
+      "tag": "Isi_undang_undang_kekerasan",
+      "patterns": [
+        "UU No 12 Tahun 2022nTPKS",
+        "Teks UU TPKS",
+        "UU TPKS lengkap"
+      ],
+      "responses": [
+        "Salinan lengkap UU TPKS klik link https://jdih.setkab.go.id/PUUdoc/176736/Salinan_UU_Nomor_12_Tahun_2022.pdf"
+      ]
+    },
+    {
+      "tag": "Jenis_kekerasan_seksual",
+      "patterns": [
+        "Apa saja jenis kekerasan seksual"
+      ],
+      "responses": [
+        "Jenis tindak pidana seksual menutut UU TPKS yaitu ; Pelecehan seksual nonfisik, Pelecehan seksual fisik, Pemaksaan kontrasepsi, Pemaksaan sterilisasi, Pemaksaan perkawinan, Penyiksaan seksual, Eksploitasi seksual, Perbudakan seksual, dan, Kekerasan seksual berbasis elektronik. Ketikkan apa yang anda ingin ketahui…! misal “Pelecehan seksul nonfisik”"
+      ]
+    },
+
+    {
+      "tag": "Penjelasan_pelecehan_seksual_nonfisik",
+      "patterns": [
+        "Apa itu pelecehab seksual nonfisik?"
+      ],
+      "responses": [
+        "Pelecehan seksual secara nonfisik adalah pernyataan, gerak tubuh, atau aktivitas yang tidak patut yang ditujukan terhadap tubuh, keinginan seksual, dan/atau organ reproduksi dengan maksud merendahkan harkat dan martabat seseorang. Pelaku pelecehan seksual non fisik dapat dikenakan pidana penjara paling lama 9 bulan dan/atau pidana denda paling banyak Rp. 10.000.000 (pasal 5)."
+      ]
+    },
+
+    {
+      "tag": "Penjelasan_pelecehan_seksual_fisik",
+      "patterns": [
+        "Apa itu pelecehan seksual secara fisik?"
+      ],
+      "responses": [
+        "Pelecehan seksual fisik adalah perbuatan seksual secara fisik yang ditujukan terhadap tubuh, keinginan seksual, dan/atau organ reproduksi dengan maksud merendahkan harkat dan martabat seseorang berdasarkan seksualitas dan/atau kesusilaannya. Pelaku pelecehan seksual fisik dapat dikenakan pidana penjara paling lama 4 tahun dan/atau pidana denda paling banyak Rp.50.000.000 (pasal 6 huruf a)."
+      ]
+    },
+
+    {
+      "tag": "Penjelasan_pemaksaan_kontrasepsi",
+      "patterns": [
+        "Apa itu pemaksaan kontrasepsi?",
+        "Pemaksaan kontrasepsi"
+      ],
+      "responses": [
+        "Perbuatan memaksa orang lain menggunakan alat kontrasepsi dengan kekerasan atau ancaman kekerasan, penyalahgunaan kekuasaan, penyesatan, penipuan, membuat atau memanfaatkan kondisi tidak berdaya yang dapat membuat seseorang kehilangan fungsi reproduksinya untuk sementara waktu disebut dengan pemaksaan kontrasepsi. Pemaksaan kontrasepsi dikenakan pidana penjara paling lama 5 tahun dan/atau pidana denda paling banyak Rp.50.000.000 (pasal 8)."
+      ]
+    },
+    {
+      "tag": "Penjelasan_pemaksaan_strerilisasi",
+      "patterns": [
+        "Apa yang dimaksud dengan pemaksaan sterilisasi?"
+      ],
+      "responses": [
+        "Pemaksaan sterilisasi adalah perbuatan memaksa orang lain menggunakan alat kontrasepsi dengan kekerasan atau ancaman kekerasan, penyalahgunaan kekuasaan, penyesatan, penipuan, membuat atau memanfaatkan kondisi tidak berdaya yang dapat membuat kehilangan fungsi reproduksinya secara tetap. Perbedaan unsur tindak pidana pemaksaan kontrasepsi dan sterilisasi adalah pada beratnya dampak kehilangan fungsi reproduksi. Tindak pidana pemaksaan sterilisasi diancam dengan pidana penjara paling lama 9 tahun dan/atau pidana denda paling banyak Rp.200.000.000 (Pasal 9). "
+      ]
+    },
+    {
+      "tag": "Penjelasan_pemaksaan_perkawinan",
+      "patterns": [
+        "Apa yang dimaksud dengan pemaksaan perkawinan?"
+      ],
+      "responses": [
+        "Pemaksaan perkawinan adalah perbuatan secara melawan hukum memaksa, menempatkan seseorang di bawah kekuasaannya atau orang lain, atau menyalahgunakan kekuasaannya untuk melakukan atau membiarkan dilakukan perkawinan dengannya atau dengan orang lain. Termasuk pemaksaan perkawinan yaitu: 1. Perkawinan anak, 2. Pemaksaan perkawinan dengan mengatas namakan praktik budaya, atau, 3. Pemaksaan perkawinan korban dengan pelaku perkosaan. Pemaksaan perkawinan diancam dengan pidana penjara paling lama 9 tahun dan/atau pidana denda paling banyak Rp.200.000.000 (pasal 10). "
+      ]
+    },
+    {
+      "tag": "Penjelasan_penyiksaan_seksual",
+      "patterns": [
+        "Apa yang dimaksud dengan penyiksaan seksual?"
+      ],
+      "responses": [
+        "Penyiksaan seksual adalah perbuatan setiap pejabat atau orang yang bertindak dalam kapasitas sebagai pejabat resmi, atau orang yang bertindak karena digerakkan atau sepengetahuan pejabat melakukan kekerasan seksual terhadap orang dengan tujuan: 1. Intimidasi untuk memperoleh informasi atau pengakuan dari orang tersebut atau pihak ketiga, 2. Persekusi atau memberikan hukuman terhadap perbuatan yang telah dicurigai atau dilakukannya, dan/atau, 3. Mempermalukan atau merendahkan martabat atas alasan diskriminasi dan/atau seksual dalam segala bentuknya. Termasuk didalamnya tindakan penyiksaan seksual yang dilakukan saat interogasi di Kepolisian, saat korban ditahan di rutan atau lapas, panti sosial, tempat penampungan tenaga kerja, dan tempat-tempat serupa penahanan lainnya. Pelaku penyiksaan seksual diancam dengan pidana penjara paling lama 12 tahun dan/atau pidana denda paling banyak Rp.300.000.000 (pasal 11)."
+      ]
+    },
+    {
+      "tag": "Penjelasan_eksploitasi_seksual",
+      "patterns": [
+        "Apa yang dimaksud dengan eksploitasi seksual?"
+      ],
+      "responses": [
+        "Eksploitasi seksual adalah kekerasan atau ancaman kekerasan atau dengan menyalahgunakan kedudukan, wewenang, kepercayaan, perbawa (karisma, pamor, pengaruh) yang timbul dari tipu muslihat atau hubungan keadaan, kerentanan, ketidaksetaraan, ketidakberdayaan, ketergantungan seseorang, penjeratan hutang atau memberi bayaran atau manfaat dengan maksud untuk mendapatkan keuntungan, atau memanfaatkan organ tubuh seksual atau organ tubuh lain dari orang itu yang ditujukan terhadap keinginan seksual dengannya atau dengan orang lain. Eksploitasi seksual diancam dengan pidana penjara paling lama 15 tahun dan/atau pidana denda paling banyak Rp1.000.000.000 (pasal 12)."
+      ]
+    },
+    {
+      "tag": "Penjelasan_pembudakan_seksual",
+      "patterns": [
+        "Apa yang dimaksud dengan perbudakan seksual?"
+      ],
+      "responses": [
+        "Perbudakan seksual adalah perbuatan melawan hukum menempatkan seseorang di bawah kekuasaannya atau orang lain dan menjadikannya tidak berdaya dengan maksud mengeksploitasinya secara seksual, dipidana karena perbudakan seksual, dengan pidana penjara paling lama 15 tahun dan/atau pidana denda paling banyak Rp.1.000.000.000."
+      ]
+    },
+    {
+      "tag": "Penjelasan_kekerasan_seksual_berbasis_elektronik",
+      "patterns": [
+        "Apa yang dimaksud dengan kekerasan seksual berbasis elektronik?"
+      ],
+      "responses": ["Melakukan perekaman dan atau mengambil gambar atau tangkapan layar yang bermuatan seksual di luar kehendak atau persetujuan orang yang menjadi objek perekaman atau gambar atau tangkapan layar,/nMentransmisikan informasi elektronik dan atau dokumen elektronik yang bermuatan seksual di luar kehendak penerima yang ditujukan terhadap keinginan seksual.Pasal 14 (ayat2)"]
+    },
+    {
+      "tag": "Bunyi_Pasal_5",
+      "patterns": [
+        "Apa bunyi pasal 5 UU TPKS"
+      ],
+      "responses": [
+        "Pasal 5 : Setiap Orang yang melakukan perbuatan seksual secara nonfisik yang ditujukan terhadap tubuh, keinginan seksual, dan/atau organ reproduksi dengan maksud merendahkan harkat dan martabat seseorzrng berdasarkan seksualitas dan/atau kesusilaannya, dipidana karena pelecehan seksual nonfisik, dengan pidana penjara paling lama 9 (sembilan) bulan dan/ atau pidana denda paling banyak Rp10.000.000,00 (sepuluh juta rupiah)."
+      ]
+    },
+    {
+      "tag": "Bunyi_pasal_6_huruf_a",
+      "patterns": [
+        "Apa bunyi pasal pasal 6 huruf a?"
+      ],
+      "responses": [
+        "pasal 6 huruf a UU TPKS: Setiap Orang yang melakukan perbuatan seksuaL secara ftsik yang ditqjukan terhadap tubuh, keinginan seksual, dan/ atau organ reproduksi, dengan maksud merendahkan harkat dan martabat, seseorang berdasarkan seksualitas dan/atau kesusilaannya yang tidak termasuk dalam ketentuan pidana lain yang lebih berat dengan pidana penjara paling lama 4 (empat) tahun dan/ atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah).",
+        "pasal 6 huruf b: . Setiap Orang yang melakukan perbuatan seksual secara fisik yarrg ditujukan terhadap tubuh, keinginan seksual, dan/ atau organ reproduksi dengan maksud menempatkan seseorang di bawah kekuasaannya secara melawan hukum, baik di dalam maupun di luar perkawinan dengan pidana penjara paling lama 12 (dua belas) tahun dan/ atau pidana denda paling banyak Rp300.000.000,00 (tiga ratus juta rupiah)."
+      ]
+    },
+    {"tag": "Bunyi_pasal_8",
+    "patterns": [
+      "Apa bunyi pasal pasal 8?"
+    ],
+      "responses": [
+        "Pasal 8 UU TPKS: Setiap Orang yang melakukan perbuatan memaksa orang lain menggunakan alat kontrasepsi dengan kekerasan atau ancaman kekerasan, penyalahgunaan kekuasaan, penyesatan, penipuan, membuat atau memanfaatkan kondisi tidaf< berdaya yang dapat membuat kehilangan fungsi reproduksinya untuk sementara waktu, dipidana karena pemaksaan kontrasepsi, dengan pidana penjara paling lama 5 (lima) tahun dan/ atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah)."
+      ]
+    },
+    {
+      "tag": "Bunyi_pasal_9",
+      "patterns": [
+        "Apa bunyi pasal 9?"
+      ],
+      "responses": [
+        "Pasal 9 UU TPKS: Setiap Orang yang melakukan perbuatan memaksa orang lain menggunakan alat kontrasepsi dengan kekerasan atau ancaman kekerasan, penyalahgunaan kekuasaan penyesatan, penipuan, membuat atau memanfaatkan kondisi tidak berdaya yang dapat membuat kehilangan fungsi reproduksinya secara tetap, dipidana karena pemaksaan sterilisasi, dengan pidana penjara paling lama 9 (sembilan) tahun dan/atau pidana denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah)."
+      ]
+    },
+    {
+      "tag": "Bunyi_pasal_10",
+      "patterns": [
+        "Apa bunyi pasal 10?"
+      ],
+      "responses": [
+        "Pasal 10 UU TPKS: Setiap Orang secara melawan hukum memaksa, menempatkan seseorang di bawah kekrlasaannya atau orang lain, atau kekuasaannya untuk melakukan atau membiarkan dilakukan perkawinan dengannya atau dengan orang lain, dipidana karena pemaksaan perkawinan, dengan pidana penjara paling lama 9 (sembilan) tahun dan/ atau pidana denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah)."
+      ]
+    },
+    {
+      "tag": "Bunyi_pasal_11",
+      "patterns": [
+        "Apa bunyi pasal 11?"
+      ],
+      "responses": [
+        "Pasal 11 UU TPKS: Setiap pejabat atau orang yang bertindak dalam kapasitas sebagai pejabat resmi, atau orang yang bertindak karena digerakkan atau sepengetahuan pejabat melakukan kekerasan seksual terhadap orang dengan tujuan: a) intimidasi untuk memperoleh informasi atau pengakuan dari orang tersebut atau pihak ketiga; b) persekusi atau memberikan hukuman terhadap perbuatan yang telah dicurigai atau dilakukannya; dan/atau c) mempernalukan atau merendahkan martabat atas alasan diskriminasi dan/ atau seksual dalam segala bentuknya, dipidana karena penyiksaan seksual, dengan pidana penjara paling lama 12 (dua belas) tahun dan/ atapidana denda paling banyak Rp300.000.000,00 (tiga ratus juta rupiah)."
+      ]
+    },
+    {
+      "tag": "Bunyi_pasal_12",
+      "patterns": [
+        "Apa bunyi pasal 12?"
+      ],
+      "responses": [
+        "Pasal 12 UU TPKS : Setiap Orang dengan kekerasan atau ancaman kekerasan atau dengan menyalahgunakan kedudukan, wewenang, kepercayaan, perbawa yang timbul dari tipu muslihat atau hubungan keadaan, kerentanan, ketidaksetaraan, ketidakberdayaan, ketergantungan seseorang, penjeratan hutang atau memberi bayaran atau manfaat dengan maksud untuk mendapatkan keuntungan, atau memanfaatkan organ tubuh seksual atau organ tubuh lain dari orang itu yang ditujukan terhadap keinginan seksual dengannya atau dengan orang lain, dipidana karena eksploitasi seksual, dengan pidana penjara paling lama 15 (lima belas) tahun dan/atau pidana denda paling banyak Rp 1.000.000.000,00 (satu miliar rupiah)."
+      ]
+    },
+
+    {
+      "tag": "Penjelasan_kekerasan_di_tempat_kerja",
+      "patterns": [
+        "Bagaimana bila pelaku kekerasan seksual di tempat kerja adalah atasan korban?"
+      ],
+      "responses": [
+        " Bila pelaku kekerasan seksual adalah pemilik perusahaan, jajaran pengurus perusahaan, atau jabatan yang dalam struktur perusahaan adalah atasan korban, pasal 15 UU TPKS memperberat ancaman pidana penjara dan denda seperti tersebut di atas ditambah sepertiga. Contohnya bila seorang pekerja perempuan jabatan operator mengalami pelecehan seksual non fisik yang dilakukan oleh seorang personalia pabrik, maka ancaman pidana yang dikenakan kepada personalia tersebut adalah pidana penjara paling lama 9 bulan ditambah sepertiga (dari 9 bulan) menjadi 12 bulan penjara.  "
+      ]
+    },
+    {
+      "tag": "Jika_tidak_berani_melapor",
+      "patterns": [
+        "Bagaimana jika saya tidak berani melaporkan kekerasan seksual yang saya alami ?",
+        "saya tidak berani melaporkan kekerasan seksual yang saya alami"
+      ],
+      "responses": [
+        "UU TPKS dihadirkan sebagai payung hukum yang melindungi korban kekerasan seksual. Untuk mendapatkan penanganan, perlindungan, serta pemulihan tentu saja kekerasan seksual yang terjadi harus diungkap dan dilaporkan. Apalagi ada sejumlah jenis tindak pidana yang merupakan delik aduan (atau penuntutan terhadap tindak pidana tersebut digantungkan pada persetujuan dari yang dirugikan atau korban) antara lain pada  pelecehan seksual nonfisik, sebagian pelecehan seksual fisik (pasal 6 huruf a), dan kekerasan seksual berbasis elektronik kecuali korban adalah Anak atau Penyandang Disabilitas."
+      ]
+    },
+    {
+      "tag": "Hak_korban_kekerasan_seksual",
+      "patterns": ["Apa saja hak saya sebagai korban?"],
+      "responses": [
+        "UU TPKS melindungi bukan saja hak korban, tetapi juga hak saksi, dan keluarga korban. Khususnya bagi korban yang adalah pekerja, secara khusus UU TPKS memberi pelindungan dari kehilangan pekerjaan/PHK atau mutasi pekerjaan.  Pelindungan yang diberikan adalah sebagai berikut:Hak atas Penanganan,Hak atas Pelindungan,Hak atas Pemulihan, Hak Keluarga Korban meliputi hak informasi hak koraban dan kerahasiaan identisal dll.,"
+      ]
+    },
+
+    {
+      "tag": "Kontak_Physcolog",
+      "patterns": ["Saya butuh kontak physcolog"],
+      "responses": [
+        "Kota anda tinggal jakarta, semarang, bandung, makassar, surabaya, yokyakarta, dan lainnya?"
+      ]
+    },
+    {
+      "tag": "Kontak_Physcolog_jakarta",
+      "patterns": ["Jakarta", "Saya butuh kontak physcolog daerah jakarta"],
+      "responses": [
+        "https://www.alodokter.com/cari-dokter/psikolog/jakarta?page=1"
+      ]
+    },
+    {
+      "tag": "Kontak_Physcolog_semarang",
+      "patterns": ["semarang", "Saya butuh kontak physcolog daerah semarang"],
+      "responses": [
+        "https://www.alodokter.com/cari-dokter/psikolog/semarang?page=1"
+      ]
+    },
+    {
+      "tag": "Kontak_Physcolog_surabaya",
+      "patterns": ["Surabaya", "Saya butuh kontak physcolog daerah surabaya"],
+      "responses": [
+        "https://www.alodokter.com/cari-dokter/psikolog/surabaya?page=1"
+      ]
+    },
+    {
+      "tag": "Kontak_Physcolog_yokyakarta",
+      "patterns": [
+        "Yokyakarta",
+        "Saya butuh kontak physcolog daerah Yokyakarta"
+      ],
+      "responses": [
+        "https://www.alodokter.com/cari-dokter/psikolog/yogyakarta?page=1"
+      ]
+    },
+    {
+      "tag": "Kontak_Physcolog_semua_kota",
+      "patterns": ["Lainnya", "Kontak physcolog semua kota"],
+      "responses": [
+        "https://www.alodokter.com/cari-dokter/psikolog/yogyakarta?page=1"
+      ]
+    },
+
+    {
+      "tag": "Edukasi_Kekerasan_seksual",
+      "patterns": [
+        "Apakah ada video edukasi mengenai kekerasa seksual ",
+        "Edukasi kekerasan seksual",
+        "Edukasi"
+      ],
+      "responses": [
+        "Link video edukasi/ilustrasi :\nhttps://youtu.be/OxiwR2dRA-w \nhttps://youtu.be/27H0Re-DY9I \nhttps://youtu.be/Jb2gJjeAwTA \nhttps://youtu.be/HBOnJ9bLc-k /nhttps://youtu.be/bPpwv5kohuU \nhttps://youtu.be/TRd21On36a8 \nJenis kekerasan seksual: https://youtu.be/UN67xGNLCJw"
+      ]
+    },
+
+    {
+      "tag": "tempat_melapor_kekerasan_seksual",
+      "patterns": [
+        "Bagaimana cara melapor apabila saya mengalami tindak kekrasan seksual?"
+      ],
+      "responses": [
+        "Apabila anda mengalami kekerasan seksual anda bisa melaporkan ke: \n1. Kantor polisi, \n2. Komnas HAM, \n3. Komnas Perempuan, \n4. SAPA 129"
+      ]
+    },
+    {
+      "tag": "cara_melapor_kekerasan_seksual_di_kantor_polisi",
+      "patterns": ["Cara melaporkan tindak kekerasan seksual ke polis?"],
+      "responses": [
+        "Datang ke kantor polisi dan laporkan ke Unit pelayanan perempuan dan anak"
+      ]
+    },
+    {
+      "tag": "cara_melapor_kekerasan_seksual_ke_komnas_HAM",
+      "patterns": [
+        "Bagaimana cara melaporkan tindak kekerasan seksual ke Komnas HAM?"
+      ],
+      "responses": ["Alur pengaduan, Link: ..........."]
+    },
+    {
+      "tag": "cara_melapor_kekerasan_seksual_ke_komnas_perempuan",
+      "patterns": [
+        "Bagaimana cara melaporkan tindak kekerasan seksual ke Komnas Perempuan?"
+      ],
+      "responses": [
+        "Melapor dengan cara : \nMengirim email ke @komnasperempuan.go.id, \nMelapor langsung melalui media sosial resmi Komnas Perempuan. \nMenghubungi mitra terdekat : komnasperempuan.go.id/mitra-komnas-perempuan/pengada-layanan. \nAlur pengaduan, Link: ..........."
+      ]
+    },
+    {
+      "tag": "cara_melapor_kekerasan_seksual_ke_SAPA_129",
+      "patterns": [
+        "Cara melaporkan tindak kekerasan seksual ke SAPA 129?"
+      ],
+      "responses": [
+        "Layanan SAPA 129 dapat diakses melalui; \nhotline 021-129, \nwhatsapp 08111-129-129"
+      ]
+    },
+    {
+      "tag": "cara_melapor_kekerasan_seksual_ke_kemendikbud",
+      "patterns": [
+        "Bagaimana melaporkan pelecehan seksual pada kemendikbud?"
+      ],
+      "responses": [
+        "Korban atau pelapor dapat mengirim email ke pengaduan@kemdikbud.go.id, \nMengisi berkas laporan pengaduan di Portal Lapor https://kemdikbud.lapor.go.id, \nHubungi call center di nomor 177, \nPengaduan secara langsung dengan mendatangi kantor Kemendikbud Ristek yang berlokasi di Gedung C, Jalan Jenderal Sudirman, Senayan, Jakarta. "
+      ]
+    }
+  ]
+}
